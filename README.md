@@ -10,6 +10,12 @@
 
 * Node.js (with `npm`).
 
+## Initial Steps
+
+* Set your environment file
+
+Copy the `.env.example` file into `.env`, replace the <CHANGE_ME> variables for your own passwords + usernames etc.
+
 ## Backend local development
 
 * Start the stack with Docker Compose:
