@@ -1,0 +1,31 @@
+
+#app {
+    position: inherit;
+    height:100%;
+    width:100%;
+    font-size: 12px;
+    font-family: verdana, geneva, arial, helvetica, sans-serif;
+    color: #FFFFFF;
+    cursor: url('assets/cursor/cursor-hollow.png'), auto;
+  }
+  body {
+    margin: 0;
+  }
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  a:hover{
+      cursor: url('assets/cursor/cursor-full.png'), pointer;
+      color: #00aaaa
+  }
+  
+  .text{
+    font-family: verdana,geneva,arial,helvetica,sans-serif;
+    color: #C0D0D8;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .genwhite{
+    color: #FFFFFF;
+  }

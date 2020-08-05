@@ -111,7 +111,7 @@ export const actions = {
     },
     actionRouteLoggedIn(context: MainContext) {
         if (router.currentRoute.path === '/login' || router.currentRoute.path === '/') {
-            router.push('/main');
+            router.push('/headquarters');
         }
     },
     async removeNotification(context: MainContext, payload: { notification: AppNotification, timeout: number }) {
